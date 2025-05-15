@@ -43,7 +43,6 @@ void barcha_taomlarni_korish() {
     printf("+----+----------------------+----------+------------+\n");
 }
 
-// Quyidagi funksiyalar realizatsiyasi:
 
 void eng_arzon_taom() {
     int minIndex = 0;
@@ -119,7 +118,6 @@ void buyurtma_tarixi_saqlash() {
 int main() {
     int tanlov;
 
-    // Taomlar menyuga oldindan qo‘shiladi
     strcpy(menyu[0].nomi, "Lag'mon");     menyu[0].narx = 25000; menyu[0].sotilgan = 10;
     strcpy(menyu[1].nomi, "Osh");         menyu[1].narx = 20000; menyu[1].sotilgan = 25;
     strcpy(menyu[2].nomi, "Shashlik");    menyu[2].narx = 30000; menyu[2].sotilgan = 15;
